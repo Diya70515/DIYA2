@@ -54,10 +54,12 @@ elif x==10:
     print('x is equal to 10')
 else:
     print("x is less than 10")
+
 #A colon is used to start a block of code (like in conditions, loops, functions, etc.).
 #Input function
 salary=input("Applicant's salary is:")
 print(salary)
+
 #Cobine Conditional Statements with input function
 salary=int(input("Applicants salary is:"))
 age=int(input("Applicants age is:"))
@@ -68,6 +70,7 @@ elif salary>30000 and cibil>700 and age>55:
           print('Appraisal ')
 else:
           print("Reject")
+
 #HR 
 cur_pay=int(input("Applicants current pay is:"))
 experience=int(input("Applicants experience:"))
@@ -77,6 +80,7 @@ elif experience<5:
     print('Shortlist')
 else:
     print('Reject')
+
 # Marketing 
 purchase=int(input("Total bill:"))
 cred_days=int(input("Credit period:"))
@@ -94,6 +98,7 @@ elif purchase>=30000 and cred_days==20:
     print("5% Discount")
 else:
     print("0% Discount")
+
 
 #Creating Data & Data Frame
 import pandas as pd
